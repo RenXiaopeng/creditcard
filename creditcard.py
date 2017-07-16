@@ -18,9 +18,12 @@ class CreditCard:
         self.available_account = available_account
 
     def displayCardBasicInfo(self):
-        print("卡号:", self.number, "\n")
-        print("所属银行:", self.bank, "\n")
-        print("卡片类型:", self.card_property, "\n")
+        print("卡号：", self.number, "\n")
+        print("所属银行：", self.bank, "\n")
+        print("卡片类型：", self.card_property, "\n")
         print("持卡人：", self.holder_name, "\n")
         print("账单日：", self.accountant_bill_date, "\n")
-        print("还款日", self.due_date, "\n");
+        print("还款日：", self.due_date, "\n")
+        print("固定额度：", self.fixed_account, "\n")
+        print("可用额度：", self.available_account, "\n")
+
